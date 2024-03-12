@@ -17,13 +17,13 @@ export const getFeaturedRestaurants = () => {
 }
 
 export const getCategories = () => {
-  return sanityClient(`
+  return sanityQuery(`
     *[_type=='category']
   `)
 }
 
 export const getFeaturedRestaurantById = id => {
-  return sanityClient(`
+  return sanityQuery(`
     *[_type=='featured' && _id==$id] {
       ...,
       restaurants[] -> {

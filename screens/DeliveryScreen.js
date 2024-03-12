@@ -1,8 +1,9 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 const DeliveryScreen = () => {
   return (
-    <div>DeliveryScreen</div>
+    <Text>DeliveryScreen</Text>
   )
 }
 

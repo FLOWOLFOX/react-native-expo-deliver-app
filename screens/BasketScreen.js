@@ -1,8 +1,9 @@
 import React from 'react'
+import { Text } from 'react-native'
 
 const BasketScreen = () => {
   return (
-    <div>BasketScreen</div>
+    <Text>BasketScreen</Text>
   )
 }
 
