@@ -29,7 +29,7 @@ export default defineType({
     }),
     defineField({
       name: 'long',
-      title: 'Longtitude of the Restaurant',
+      title: 'Longitude of the Restaurant',
       type: 'number',
     }),
     defineField({
